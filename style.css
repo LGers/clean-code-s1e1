@@ -36,24 +36,24 @@ body {
   display: flex;
 }
 .ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 .list, .h3 {
-  list-style:none;
+  list-style: none;
 }
 .input {
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 .button:hover {
   color: #3a3A3a;
@@ -116,7 +116,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 .delete img {
@@ -136,14 +136,14 @@ li >    input[type="text"] {
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 ul .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul .edit-mode label {
-  display:none;
+  display: none;
 }
